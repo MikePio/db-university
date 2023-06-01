@@ -1,20 +1,19 @@
-**Database università**
+Esercizio di introduzione a MySQL
 ===
-## **Descrizione**
-Modellizzare la struttura di un database per memorizzare tutti i dati riguardanti una università:
-- sono presenti diversi `Dipartimenti` (es.: Lettere e Filosofia, Matematica, Ingegneria ecc.);
-- ogni `Dipartimento` offre più `Corsi di Laurea` (es.: Civiltà e Letterature Classiche, Informatica, Ingegneria Elettronica ecc..)
-- ogni `Corso di Laurea` prevede diversi `Corsi` (es.: Letteratura Latina, Sistemi Operativi 1, Analisi Matematica 2 ecc.);
-- ogni `Corso` può essere tenuto da diversi `Insegnanti`;
-- ogni `Corso` prevede più appelli d’`Esame`;
-- ogni `Studente` è iscritto ad un solo `Corso di Laurea`;
-- ogni `Studente` può iscriversi a più appelli di `Esame`;
-- per ogni appello d’`Esame` a cui lo `Studente` ha partecipato, è necessario memorizzare il voto ottenuto, anche se non sufficiente.
+## Descrizione
+Dopo aver creato un nuovo database nel phpMyAdmin e aver importato lo schema allegato, eseguire le query del file allegato `EX - Query con SELECT.pdf`.
 
-Pensare a quali entità (tabelle) creare per il database e cercare poi di stabilire le relazioni. 
+Dopo aver testato le query con phpMyAdmin, riportarle in un file .txt e caricarlo nella repo.
 
-Infine, definire le colonne e i tipi di dato di ogni tabella.
+### **BONUS**
+Eseguire le query di `EX - Query con GROUP BY.pdf`
 
-Per disegnare il diagramma utilizzare draw.io, MySql Workbench, miro o figma.
+Esercizio di introduzione a MySQL (PARTE 2)
+===
+## Descrizione
+Utilizzando lo stesso database di ieri, eseguire le query in `EX - Query con JOIN.pdf`. Caricare un altro file con le query e rispondere dalla domanda 1 alla domanda 4.
 
-Una volta realizzato il diagramma fare uno screenshot o esportare il pdf.
+### **BONUS**
+Rispondere dalla domanda 5 alla domanda 7.
+
+
